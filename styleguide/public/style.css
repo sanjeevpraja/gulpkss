@@ -14,7 +14,7 @@ Markup:
 Styleguide 1.1
 */
 .button {
-  background: red;
+  background: blue;
 }
 .button:hover {
   background: orange;
