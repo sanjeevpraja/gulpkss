@@ -1,11 +1,3 @@
-// Modules
-// 
-// Reusable elements that can be used across the site.
-// So far this just includes buttons. 
-// 
-// Styleguide 1.
-
-
 /*
 Buttons
 
@@ -22,14 +14,14 @@ Markup:
 Styleguide 1.1
 */
 .button {
-	background: red
+  background: red;
 }
 .button:hover {
-	background: orange
+  background: orange;
 }
 .button:disabled {
-	background: #ccc;
+  background: #ccc;
 }
 .button.primary {
-	background: green;
+  background: green;
 }

@@ -13,7 +13,7 @@ gulp.task('kss', function () {
  .pipe(gulp.dest('styleguide/'));
 
 // Concat and compile all your styles for correct rendering of the styleguide. 
-gulp.src('styles/main.less')
+gulp.src('styles/styles.less')
 .pipe(gulpless())
 .pipe(gulpconcat('public/style.css'))
 .pipe(gulp.dest('styleguide/'));
